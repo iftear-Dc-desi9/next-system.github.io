@@ -1,0 +1,313 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+body{
+    font-family: 'Poppins';
+    scroll-behavior: smooth;
+}
+.logo-text-next{
+    font-family: "F.VnMonotype corsiva Italic";
+    letter-spacing: 2px;
+    color: #6d3694de;
+    font-style: italic;
+    text-transform: lowercase;
+}
+.logo-text-system{
+    font-family: 'Estricta', sans-serif;
+    color: #6d3694de;
+    font-size: 27px;
+    text-transform: lowercase;
+}
+.next-logo{
+    width: 70%;
+}
+.navbar-brand{
+    width: 20%;
+}
+.main-space{
+    width: 100%;
+    height: 20vh;
+}
+.intro-detail .l-btn{
+    border-radius: 0;
+}
+.refund-text a .l-btn{
+    border-radius: 0;
+}
+
+.special-text p{
+    width: 50%;
+    margin: auto;
+    
+}
+.highlight-text{
+    color: #f8b71f;
+}
+.mark-tag{
+    color: #008cce;
+}
+.pricing-box{
+    width: 100%;
+    font-family: 'Poppins';
+    display: block;
+    margin: auto;
+    background-color: #76354cf2;
+    color: white;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.pricing-box:hover{
+    background-color: #f3c920bf;
+    color: rgba(0, 0, 0, 0.747);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.319);
+    transition: 0.7s ease;
+}
+.pricing-box:hover{
+    color: rgba(0, 0, 0, 0.747);
+    transition: 0.7s ease;
+}
+.pricing-detail a button{
+    color: #007bff;
+    background-color: transparent;
+    padding: 5px 16px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid #ffffff;
+    outline: none;
+    font-size: 17px;
+    margin: 10px;
+    text-transform: uppercase;
+    font-family: 'Poppins';
+    font-weight: 400;
+}
+.pricing-detail a button:hover{
+    color: #007bff;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid #f5f0e1;
+    transition: 0.4s ease;
+}
+.pricing-box:hover .pricing-detail a button{
+    color: #7a2a2a;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid #007bff;
+    transition: 0.4s ease;
+}
+.price-plan-header{
+    color: #000000;
+    letter-spacing: 2px;
+    font-weight: 600;
+    background-color: #f3c920fe;
+    margin-top: -40px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+.pricing-box:hover .price-plan-header{
+    color: #ffffff;
+    background-color: #5f2c3e;
+    transition: 0.7s ease;
+}
+.media-box{
+    width: 70%;
+}
+.media-box a{
+    text-decoration: none;
+}
+.media-box .media-img{
+    width: 70%;
+    display: block;
+    margin: auto;
+}
+.chatbox p{
+text-align: center;
+border-top:2px solid rgba(0, 0, 0, 0.488);
+font-family: 'Poppins';
+letter-spacing: 2px;
+border-radius: 50px;
+}
+.media-box:hover .chatbox p{
+    color: #5f2c3e;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.081);
+    transition: 0.7s;
+}
+.contact-info ul{
+    list-style: none;
+    width: 70%;
+    text-decoration: none;
+    font-size: 17px;
+    
+}
+.contact-info ul li a{
+    text-decoration: none;
+    font-size: 17px;
+    color: black;
+}
+.contact-info ul li a:hover{
+    color: #12a4d9;
+    transition: 0.4s ease;
+}
+.contact-info ul li a i{
+    font-size: 30px;
+    padding-right: 5px;
+}
+.map{
+    width: 80%;
+}
+.foter{
+    background-color: #6d3694e8;
+    color: #f0eaea8a;
+}
+.designer-tag{
+    font-style: italic;
+    font-size: 17px;
+    color: #0000002c;
+}
+.designer-tag a{
+    font-style: italic;
+    font-size: 17px;
+    color: #0000002c;
+}
+.sec-1{
+    width: 100%;
+}
+@media screen and (max-width: 600px) {
+    .main-space{
+        width: 100%;
+        height: 8vh;
+    }
+    .special-text p{
+        width: 95%;
+        font-size: 15px;
+        
+    }
+    .next-logo{
+        width: 100%;
+    }
+    .navbar-brand{
+        width: 40%;
+    }
+    .media-box .media-img{
+        width: 50%;
+        display: block;
+        margin: auto;
+    }
+    .chatbox p{
+        width: 70%;
+        display: block;
+        margin: auto;
+    }
+    .contact-info ul{
+        list-style: none;
+        width: 100%;
+        text-decoration: none;
+        font-size: 17px;
+        
+    }
+    .foter{
+        font-size: 17px;
+    }
+    .designer-tag{
+        font-style: italic;
+        font-size: 15px;
+        color: #0000002c;
+    }
+    .designer-tag a{
+        font-style: italic;
+        font-size: 14px;
+        color: #0000002c;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
