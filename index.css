@@ -125,15 +125,18 @@ body{
     display: block;
     margin: auto;
 }
-.chatbox p{
-text-align: center;
-border-top:2px solid rgba(0, 0, 0, 0.488);
-font-family: 'Poppins';
-letter-spacing: 2px;
-border-radius: 50px;
+.media-box a p i{
+border-radius: 20px;
+background-color: white;
+color: #006AFF;
+padding: 10px;
+margin-right: 10px;
+margin-bottom: 30px;
+float: right;
 }
-.media-box:hover .chatbox p{
-    color: #5f2c3e;
+.media-box a p i:hover{
+    color: white;
+background-color: #006AFF;
     border: none;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.081);
     transition: 0.7s;
@@ -204,6 +207,15 @@ border-radius: 50px;
         display: block;
         margin: auto;
     }
+    .media-box a p i{
+        border-radius: 8px;
+        background-color: white;
+        color: #006AFF;
+        padding: 5px;
+        margin-right: 4px;
+        margin-bottom: 10px;
+        float: right;
+        }
     .contact-info ul{
         list-style: none;
         width: 100%;
@@ -225,54 +237,6 @@ border-radius: 50px;
         color: #0000002c;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
