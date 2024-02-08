@@ -212,6 +212,7 @@ background-color: #006AFF;
         padding: 5px;
         margin-right: 4px;
         margin-bottom: 10px
+        float: right;
         }
     .contact-info ul{
         list-style: none;
