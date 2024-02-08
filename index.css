@@ -209,12 +209,9 @@ background-color: #006AFF;
     }
     .media-box a p i{
         border-radius: 8px;
-        background-color: white;
-        color: #006AFF;
         padding: 5px;
         margin-right: 4px;
-        margin-bottom: 10px;
-        float: right;
+        margin-bottom: 10px
         }
     .contact-info ul{
         list-style: none;
