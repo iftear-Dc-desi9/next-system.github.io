@@ -141,6 +141,45 @@ background-color: #006AFF;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.081);
     transition: 0.7s;
 }
+
+
+.hero-box{
+width:100%;
+overflow:hidden;
+position:relative;
+}
+.hero-box img{
+width:100%;
+transition:all 0.5s;
+}
+.hero-text{
+position:absolute;
+top:0;
+left:0;
+width:100%;
+height:100%;
+color:white;
+display:flex;
+justify-content:center;
+align-items:center;
+opacity:0;
+transition:all 0.5s;
+background-color:black;
+}
+.hero-text a{
+letter-spacing:1px;
+text-align:center;
+color:white;
+padding:5px;
+}
+.hero-box:hover .hero-text{
+opacity:1;
+background-color:rgba(0,0,0,0.5);
+}
+.hero-box:hover img{
+transform:scale(1.3);
+}
+
 .contact-info ul{
     list-style: none;
     width: 70%;
