@@ -142,8 +142,13 @@ background-color: #006AFF;
     transition: 0.7s;
 }
 
-.hero-box{
+.social-content{
     width:80%;
+    display:block;
+    margin: auto;
+}
+.hero-box{
+    width:90%;
     overflow:hidden;
     position:relative;
     }
@@ -252,7 +257,11 @@ background-color: #006AFF;
         margin-right: 4px;
         margin-bottom: 10px;
         }
-
+.social-content{
+    width:100%;
+    display:block;
+    margin: auto;
+}
         .hero-box{
             width:50%;
             display: block;
