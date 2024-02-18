@@ -108,6 +108,7 @@ body{
     margin-top: -40px;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
+    font-size:6vw;
 }
 .pricing-box:hover .price-plan-header{
     color: #ffffff;
