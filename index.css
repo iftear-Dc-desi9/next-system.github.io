@@ -278,6 +278,11 @@ background-color: #006AFF;
                 background-color:rgba(0, 0, 0, 0.304);
                 font-size: 14px;
             }
+     .contact-content{
+                width: 70%;
+                display: block;
+                margin: auto;
+            }
             .contact-box{
                 width: 70%;
                 display: block;
