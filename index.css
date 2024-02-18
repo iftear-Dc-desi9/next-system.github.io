@@ -268,7 +268,7 @@ background-color: #006AFF;
     margin: auto;
 }
         .hero-box{
-            width:50%;
+            width:100%;
             display: block;
             margin: auto;
             }
@@ -276,7 +276,7 @@ background-color: #006AFF;
             .hero-text{
                 opacity: 1;
                 background-color:rgba(0, 0, 0, 0.304);
-                font-size: 14px;
+                font-size: 10px;
             }
      .contact-content{
                 width: 90%;
