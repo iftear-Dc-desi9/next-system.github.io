@@ -114,6 +114,9 @@ body{
     background-color: #5f2c3e;
     transition: 0.7s ease;
 }
+.modal-box{
+    display: block;
+}
 .close, .get-chat-link{
 font-size: 30px;
 text-decoration:none;
@@ -255,6 +258,19 @@ background-color: #006AFF;
     .navbar-brand{
         width: 40%;
     }
+    .modal-box{
+        display: block;
+        width: 80%;
+        margin: auto;
+    }
+    .close, .get-chat-link{
+    font-size: 23px;
+    text-decoration:none;
+    }
+    .get-chat-text{
+    font-size: 15px;
+    }
+    
     .media-box .media-img{
         width: 50%;
         display: block;
