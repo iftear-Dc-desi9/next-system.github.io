@@ -114,6 +114,15 @@ body{
     background-color: #5f2c3e;
     transition: 0.7s ease;
 }
+.close, .get-chat-link{
+font-size: 30px;
+text-decoration:none;
+}
+.get-chat-text{
+font-size: 20px;
+}
+
+
 .media-box{
     width: 70%;
 }
